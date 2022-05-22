@@ -1,0 +1,80 @@
+.main__teacher .container{
+    background-color: #fff;
+    height: 100%;
+}
+
+.teacher__wrapper{
+    padding: 100px 0 20px;
+}
+
+.teacher__title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.teacher__subtitle{
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.techer__body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px 0;
+}
+.teacher__img{
+    margin-right: 40px;
+}
+
+.teacher__info p{
+    font-size: 20px;
+    line-height: 4;
+}
+
+.teacher__info span{
+    font-weight: 700;
+}
+.teacher__info a{
+    font-size: 18px;
+    padding: 10px 7px;
+    background-color: #fed347;
+    color: black;
+    border-radius: 5px;
+}
+
+.teacher__list{
+    margin: 20px auto;
+    width: 900px;
+}
+.teacher__list_item{
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.teacher__list_item::before{
+    content: '';
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: #fed347;
+    position: absolute;
+    left: -30px;
+    top: 5px;
+}
+
+.teacher__photo img{
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+}

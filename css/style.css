@@ -1,0 +1,13 @@
+@import 'zeroing.css';
+@import 'mainpage.css';
+@import 'teacher.css';
+@import 'contacts.css';
+
+.container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background: url(../img/bg.png);
+}
